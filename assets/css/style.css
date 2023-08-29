@@ -1,11 +1,50 @@
 
-body {
+ body {
     font-family: "Righteous", cursive;
+    color: #0000ff;
+
 }
 
-h2 {
+ h2 {
     font-family: "Righteous", cursive;
+    text-transform: uppercase;
     letter-spacing: 4px;
-    color: #008000;
+    
 }
+
+ #logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 25px;
+}
+
+ #banner {
+    font-size: 120%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+ #logo, #banner {
+    line-height: 75px;
+}
+
+ #banner li {
+    float: right;
+    margin-right: 30px;
+}
+
+ #banner a {
+    text-decoration: none;
+    color: inherit
+  }
+  
+ #banner a:hover {
+    border-bottom: 1px solid #0000ff;
+  }
+  
+ .active {
+    border-bottom: 1px solid #0000ff;
+  }
+  
+
 
