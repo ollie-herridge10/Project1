@@ -5,7 +5,7 @@ body {
 /* Containers */
 
 
-.container-wrapper--red {
+.container-wrapper--cyan {
     background-color: rgb(28, 236, 170);
     color: #ffffff;
 }
@@ -109,15 +109,12 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: rgb(28, 236, 170);
+    background-color: #ffffff;
 }
 
-.block-divider--orange {
-    background-color: rgb(28, 236, 170);
-}
 
-.block-divider--white {
-    background-color: white;
+.block-divider--cyan {
+    background-color: rgb(28, 236, 170);
 }
 
 .block-divider--short {
@@ -147,8 +144,6 @@ body {
     color: white;
 }
 
-
-
 /* Page Headers */
 
 .page-header {
@@ -165,7 +160,6 @@ body {
 
 .page-header {
     margin-bottom: 25px;
-    float: right;
 }
 
 .center {
@@ -176,11 +170,35 @@ body {
     height: 250px;
   }
 
-/* Features */
+/* Menu */
 
-.feature {
+.menu .page-header {
     text-align: center;
-    margin-bottom: 40px;
+}
+
+.drinksmenu h3 {
+    text-align: center;
+}
+
+.drinksmenu {
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.activities {
+    text-align: center;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-right: 50%;
+}
+
+.activities .tabletennis-image {
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-right: 50%;
 }
 
 .feature i {
@@ -189,12 +207,24 @@ body {
     line-height: 45px;
 }
 
-.feature .btn {
+/* Map and Sign Up */
+
+.signup-googlemap .hero-container {
+    height: 100vh;
+
+    background: url("https://www.fourpure.com/cdn/shop/files/40-day-placeholder_1220x512_crop_center.jpg?v=1649169548") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.sups {
     background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: rgb(28, 236, 170);
 }
