@@ -175,7 +175,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 400px;
     height: 250px;
   }
 
@@ -230,6 +230,7 @@ body {
     line-height: 45px;
 }
 
+
 /* Map and Sign Up */
 
 .signup-googlemap .hero-container {
@@ -247,13 +248,16 @@ body {
 
     position: relative;
 }
-
-.gmaps {
-    padding-right: 10px;
+iframe {
+    height: 430px;
+    width: 400px;
 }
+
 
 .sups {
     background-color: white;
+    height: 450px;
+    width: 500px;
 }
 
 .sups h2 {
