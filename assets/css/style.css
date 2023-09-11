@@ -126,9 +126,6 @@ body {
     width: 35px;
 }
 
-.who-are-we .block-divider--short {
-    background-color: rgb(28, 236, 170);
-}
 
 /* Buttons */
 
@@ -179,10 +176,14 @@ body {
     height: 250px;
   }
 
+  .who-are-we .block-divider--short {
+    background-color: rgb(28, 236, 170);
+}
+
 /* Menu */
 
 .menu .page-header {
-    text-align: center;
+    margin-bottom: 0;
 }
 
 .drinksmenu h3 {
@@ -190,10 +191,13 @@ body {
 }
 
 .drinksmenu {
-    text-align: left;
+    text-align: center;
     color: #ffffff;
 }
 
+.drinksmenu ul {
+    padding-left: 0;
+}
 
 .activities .activities-text {
     text-align: center;
@@ -224,16 +228,15 @@ body {
     margin-right: 50%;
 }
 
-.feature i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
+.activity-div {
+    margin-top: 30px;
 }
 
 
-/* Map and Sign Up */
 
-.signup-googlemap .hero-container {
+/* Map and Book A Table */
+
+.booking .hero-container {
     height: 100vh;
 
     background: url("https://www.fourpure.com/cdn/shop/files/40-day-placeholder_1220x512_crop_center.jpg?v=1649169548") no-repeat bottom right fixed;
@@ -253,14 +256,13 @@ iframe {
     width: 400px;
 }
 
-
-.sups {
+.book-a-table {
     background-color: white;
     height: 450px;
     width: 500px;
 }
 
-.sups h2 {
+.book-a-table h2 {
     text-align: center;
 }
 
@@ -268,6 +270,33 @@ iframe {
     padding-right: 10px;
     padding-left: 10px;
 }
+
+
+/* Opening Times */
+
+.opening-times .block-divider--short {
+    background-color: rgb(28, 236, 170);
+}
+
+.page-title {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-title h2 {
+    margin-top: 0;
+}
+
+.page-title {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.page-title ul {
+    padding: 0%;
+}
+
 
 /* Footer */
 
@@ -296,3 +325,5 @@ footer {
     margin-bottom: 5px;
     padding-top: 5px;
   }
+
+  

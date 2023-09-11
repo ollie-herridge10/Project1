@@ -25,11 +25,11 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
                     <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/about">Menu</a></li>
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Book Now</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="menu_link">Menu</a></li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Book A Table</a></li>
                 </ul>
             </div> 
-            <div class="d-none d-md-block">
+            <div class="d-none d-sm-block">
                 <a href="/login" role="button" class="btn btn-primary">Book A Table</a>
             </div>
         </nav>
@@ -50,12 +50,12 @@
     <div class="container-fluid">
         <div class="container content-container">
             <div class="row">
-                <div class="col-lg-6 col-md-4 draught">
+                <div class="col draught">
                         <div class="d-none d-md-block">
-                            <img src="https://www.baturebrewery.com/media/w12fgcmy/group_shot.jpg" class="rounded center" alt="IPA Beers">                            
+                            <img src="https://www.baturebrewery.com/media/w12fgcmy/group_shot.jpg" class="rounded center img-fluid" width="100%" alt="Responsive Image">                            
                         </div>
                     </div>
-                <div class="col-lg-6 page-header who-are-we">
+                <div class="col-md-6 page-header who-are-we">
                     <h2 class="text-uppercase">Who Are We?</h2>
                     <hr class="block-divider block-divider--short">
                     <p>
@@ -72,14 +72,18 @@
             <section class="features">
                 <div class="row">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase">What you can expect</h2>
+                        <h2 class="text-uppercase" id="menu_link">What you can expect</h2>
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 menu page-header">
+                        <h3>Menu <i class="fa-solid fa-beer d-inline"></i></h3>
                         <hr class="block-divider block-divider--short block-divider--white">
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-6  menu drinksmenu">
-                        <h3>Menu <i class="fa-solid fa-beer d-inline"></i></h3>
-                        <hr class="block-divider block-divider--short block-divider--white">
+                    <div class="col-lg-3 col-md-6 drinksmenu">
                         <ul style="list-style-type: none;">
                                 <li><h5><strong>Draught Beers</strong></h5></li>
                                 <li>Hoppy Ending Pale Ale</li>
@@ -106,20 +110,20 @@
                                 <li>Nachos - meat or veg</li>
                             </ul>
                     </div> 
-                    <div class="col-md-6 d-lg-block d-none d-md-block menu-image">
-                        <img src="https://www.indystar.com/gcdn/-mm-/a5076e7a43a0cec6129489319d0fb728e2cd1814/c=0-264-5184-3193/local/-/media/2015/12/29/Indianapolis/Indianapolis/635870074476103412-042-tap.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp" class="rounded center" alt="IPA Beers">                            
+                    <div class="col-md-6 d-none d-lg-block menu-image">
+                        <img src="https://www.indystar.com/gcdn/-mm-/a5076e7a43a0cec6129489319d0fb728e2cd1814/c=0-264-5184-3193/local/-/media/2015/12/29/Indianapolis/Indianapolis/635870074476103412-042-tap.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp" class="rounded center img-fluid" alt="IPA Beers">                            
                     </div>
                 </div>
 
-                <div class="row align-items-center">
+                <div class="row align-items-center activity-div">
                     <div class="col-lg-6 col-md-6 page-header activities activities-text">
                         <h3>Activities <i class="fa-solid fa-table-tennis-paddle-ball d-inline"></i></h3>
                         <hr class="block-divider block-divider--short block-divider--white">
                         <p>We understand when the beers are flowing, the urge for activity is ripe! That's why we've installed table tennis, shuffle board, table football and darts to keep the punters lively! Our taproom is the ideal spot for any event or special occasion. Whether you’re looking to hire our entire taproom for a big party, just the mezzanine for a birthday bash or our tasting room for a meeting, we have a space for every celebration. </p>
 
                     </div> 
-                    <div class="col-md-6 d-lg-block d-none d-md-block activities-image">
-                        <img src="https://cdn.cheapoguides.com/wp-content/uploads/sites/4/2020/04/iStock-1173336159-770x513.jpg" class="rounded center" alt="IPA Beers">                            
+                    <div class="col-md-6 d-none d-md-block activities-image">
+                        <img src="https://www.bostonmagazine.com/wp-content/uploads/sites/2/2021/11/spin-ping-pong-boston-t.jpg" class="rounded center img-fluid" alt="IPA Beers">                            
                     </div>
                 </div>
             </section>
@@ -127,18 +131,16 @@
     </div>
     <!-- Menu -->
     <!--Book A Table-->
-    <section class="signup-googlemap">
-        <div class="container-fluid navalert-container">
-            <div class="container-fluid alert-container">
+    <section class="booking">
+        <div class="container-fluid">
                 <div class="row d-none d-sm-block">
                     <div class="col-12">
                     </div>
                 </div>
-            </div>
         </div>
         <div class="container-fluid hero-container">
             <div class="row">
-                <div class="col-12 sups rounded">
+                <div class="book-a-table rounded text-uppercase">
                     <h2>Book A Table</h2>
                     <form>
                         <div class="form-group">
@@ -168,16 +170,40 @@
                           <label for="form-date">Date</label>
                           <input type="date" class="form-control" id="form-date">
                         </div>
-                        <div class="d-none d-md-block">
+                        <div>
                             <a href="/login" role="button" class="btn btn-primary">Book A Table</a>
                         </div>
-                      </form>
-                    
+                    </form>
                 </div>
             </div>
         </div>
     </section>
     <!--Book A Table-->
+    <!--Opening Times-->
+    <section>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.004276806866!2d-0.14071355723578713!3d51.51317676420502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d49f4b7f9b%3A0xe44e57cc537e5dd2!2sSoho%2C%20London!5e0!3m2!1sen!2suk!4v1694175075312!5m2!1sen!2suk" class="center" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-6 page-title opening-times">
+                <h2 class="text-uppercase">Finding Us</h2>
+                <hr class="block-divider block-divider--short">
+                <p>
+                    We're located in the heart of Soho on Old Compton Street in London.
+                </p>
+                <ul style="list-style-type: none;">
+                    <li>Opening Times</li>
+                    <li>Thursday 16.00 to 20.00</li>
+                    <li>Friday 16.00 to 22.00</li>
+                    <li>Saturday 12.00 to 22.00</li>
+                    <li>Sunday Closed</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--Opening Times-->
     <!--Footer-->
     <footer>
         <div class="container-wrapper container-wrapper--black">
