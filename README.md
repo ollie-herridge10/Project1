@@ -19,23 +19,61 @@
 # Design
 
 ## Images
-### The images I have incorporated into my website give a real feel of what to expect when you arrive at the bar. The two big hero images show real detail into what the bar looks like and gives off the vibe of the place as well. The smaller images I have portray the finer details about my bar including the fun and games you can have there.
+#### The images I have incorporated into my website give a real feel of what to expect when you arrive at the bar. The two big hero images show real detail into what the bar looks like and gives off the vibe of the place as well. The smaller images I have portray the finer details about my bar including the fun and games you can have there.
 
 ## Fonts
-### I chose the Righteous font for my website as I believe it carries the weight of the IPA industry with it. The indsutry is fun and playful so I thought Righteous had the right tone.
+#### I chose the Righteous font for my website as I believe it carries the weight of the IPA industry with it. The indsutry is fun and playful so I thought Righteous had the right tone.
 
 ## Colours
-### A light greeny/blue, white and black were chosen for my website. The colour rgb(28, 236, 170) popped right off the page and gave my website a theme that I could continue with to carry on that playful sense that my website offers.
+#### A light greeny/blue, white and black were chosen for my website. The colour rgb(28, 236, 170) popped right off the page and gave my website a theme that I could continue with to carry on that playful sense that my website offers.
+
 
 # Wirefames
 
 # Features
 
+
 # Testing
+## HTML
+#### Used https://validator.w3.org/nu/ repeatedly throughout the project.
+
+## CSS 
+#### Used https://jigsaw.w3.org/css-validator/ repeatedly throughout the project.
+
 
 # Bugs
 
+
+# Technologies Used
+## Languages
+* HTML
+* CSS
+* Bootstrap
+
+## Frameworks - Libraries - Programs Used
+* Am I Responsive - Used to verify responsiveness of website on different devices.
+* Responsinator - Used to verify responsiveness of website on different devices.
+* Balsamiq - Used to generate Wireframe images.
+* Chrome Dev Tools - Used for overall development and tweaking, including testing responsiveness and performance.
+* Font Awesome - Used for Social Media icons in footer.
+* GitHub - Used for version control and hosting.
+* Google Fonts - Used to import and alter fonts on the page.
+* TinyPNG - Used to compress images to reduce file size without a reduction in quality.
+* W3C - Used for HTML & CSS Validation.
+
+
 # Credits
+## Below are some of the sites and resources that inspired me to make this project.
+* https://www.fourpure.com/pages/taproom-se16
+* https://www.vocationbrewery.com/
+* https://www.brewdog.com/uk
+
+## Below are some of the resources that I used to help me and turn into my own.
+* Coders Coffeehouse Project by CodeInstitute
+* Whiskey Project by CodeInstitute 
+
+
+
 
 Link for Hero Image - https://images.getbento.com/accounts/c618467979bf3c1197daf5643277f261/media/images/50715Funcks_Leola_January-001.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5
 
