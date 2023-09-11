@@ -25,12 +25,12 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
                     <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="menu_link">Menu</a></li>
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Book A Table</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#menu-nav-link">Menu</a></li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#booking-nav-link">Book A Table</a></li>
                 </ul>
             </div> 
             <div class="d-none d-sm-block">
-                <a href="/login" role="button" class="btn btn-primary">Book A Table</a>
+                <a href="booking-nav-link" role="button" class="btn btn-primary">Book A Table</a>
             </div>
         </nav>
     </div>
@@ -72,12 +72,12 @@
             <section class="features">
                 <div class="row">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase" id="menu_link">What you can expect</h2>
+                        <h2 class="text-uppercase">What you can expect</h2>
                         <hr class="block-divider block-divider--short block-divider--white">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 menu page-header">
+                    <div class="col-lg-6 menu page-header" id="menu-nav-link">
                         <h3>Menu <i class="fa-solid fa-beer d-inline"></i></h3>
                         <hr class="block-divider block-divider--short block-divider--white">
                     </div>
@@ -140,7 +140,7 @@
         </div>
         <div class="container-fluid hero-container">
             <div class="row">
-                <div class="book-a-table rounded text-uppercase">
+                <div class="book-a-table rounded text-uppercase" id="booking-nav-link">
                     <h2>Book A Table</h2>
                     <form>
                         <div class="form-group">
@@ -171,7 +171,7 @@
                           <input type="date" class="form-control" id="form-date">
                         </div>
                         <div>
-                            <a href="/login" role="button" class="btn btn-primary">Book A Table</a>
+                            <a action="booking.html" role="button" class="btn btn-primary">Book A Table</a>
                         </div>
                     </form>
                 </div>

@@ -306,6 +306,7 @@ footer {
 
   .social-networks {
     text-align: center;
+    padding-left: 0;
   }
   
   .social-networks li {
