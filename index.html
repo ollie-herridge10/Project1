@@ -30,7 +30,7 @@
                 </ul>
             </div> 
             <div class="d-none d-sm-block">
-                <a href="booking-nav-link" role="button" class="btn btn-primary">Book A Table</a>
+                <a href="#booking-nav-link" role="button" class="btn btn-primary">Book A Table</a>
             </div>
         </nav>
     </div>
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col draught">
                         <div class="d-none d-md-block">
-                            <img src="https://www.baturebrewery.com/media/w12fgcmy/group_shot.jpg" class="rounded center img-fluid" width="100%" alt="Responsive Image">                            
+                            <img src="https://www.baturebrewery.com/media/w12fgcmy/group_shot.jpg" class="rounded center img-fluid" width="100" alt="Responsive Image">                            
                         </div>
                     </div>
                 <div class="col-md-6 page-header who-are-we">
@@ -145,15 +145,15 @@
                     <form>
                         <div class="form-group">
                             <label for="form-name">Name</label>
-                            <input type="text" class="form-control" id="form-name">
+                            <input type="text" class="form-control" id="form-name" required>
                           </div>
                         <div class="form-group">
                           <label for="form-email">Email address</label>
-                          <input type="email" class="form-control" id="form-email" placeholder="name@example.com">
+                          <input type="email" class="form-control" id="form-email" placeholder="name@example.com" required>
                         </div>
                         <div class="form-group">
                           <label for="form-people">Number of people</label>
-                          <select class="form-control" id="form-people">
+                          <select class="form-control" id="form-people" required>
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -168,10 +168,10 @@
                         </div>
                         <div class="form-group">
                           <label for="form-date">Date</label>
-                          <input type="date" class="form-control" id="form-date">
+                          <input type="date" class="form-control" id="form-date" required>
                         </div>
-                        <div>
-                            <a action="booking.html" role="button" class="btn btn-primary">Book A Table</a>
+                        <div class="real-submit">
+                            <a href="booking.html" target="_blank" role="button" class="btn btn-primary">Book A Table</a>
                         </div>
                     </form>
                 </div>
@@ -184,21 +184,22 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6 embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.004276806866!2d-0.14071355723578713!3d51.51317676420502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d49f4b7f9b%3A0xe44e57cc537e5dd2!2sSoho%2C%20London!5e0!3m2!1sen!2suk!4v1694175075312!5m2!1sen!2suk" class="center" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="col-lg-6 page-title opening-times">
-                <h2 class="text-uppercase">Finding Us</h2>
-                <hr class="block-divider block-divider--short">
-                <p>
-                    We're located in the heart of Soho on Old Compton Street in London.
-                </p>
-                <ul style="list-style-type: none;">
-                    <li>Opening Times</li>
-                    <li>Thursday 16.00 to 20.00</li>
-                    <li>Friday 16.00 to 22.00</li>
-                    <li>Saturday 12.00 to 22.00</li>
-                    <li>Sunday Closed</li>
-                </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.004276806866!2d-0.14071355723578713!3d51.51317676420502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d49f4b7f9b%3A0xe44e57cc537e5dd2!2sSoho%2C%20London!5e0!3m2!1sen!2suk!4v1694175075312!5m2!1sen!2suk" class="center" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6 page-title opening-times">
+                    <h2 class="text-uppercase">Finding Us</h2>
+                    <hr class="block-divider block-divider--short">
+                    <p>
+                        We're located in the heart of Soho on Old Compton Street in London.
+                    </p>
+                    <ul style="list-style-type: none;">
+                        <li>Opening Times</li>
+                        <li>Thursday 16.00 to 20.00</li>
+                        <li>Friday 16.00 to 22.00</li>
+                        <li>Saturday 12.00 to 22.00</li>
+                        <li>Sunday Closed</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
