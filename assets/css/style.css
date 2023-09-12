@@ -190,43 +190,28 @@ body {
 .drinksmenu {
     text-align: center;
     color: #ffffff;
+    margin-top: 40px;
+}
+
+.menu-image {
+    margin-top: 40px;
 }
 
 .drinksmenu ul {
     padding-left: 0;
 }
 
-.activities .activities-text {
-    text-align: center;
-    float: left;
-    margin-bottom: 20px;
-    margin-top: 120px;
-    margin-right: 50%;
+.activities-image {
+    margin-top: 100px;
 }
 
-.activities .page-header {
-    text-align: center;
-    margin: auto;
-}
-
-.activities h3 {
-    text-align: center;
-    color: #ffffff;
+.activities-text {
+    margin-top: 100px;
 }
 
 .activities-text p {
     text-align: center;
-}
-
-.activities .activities-image {
-    float: right;
-    margin-bottom: 20px;
-    margin-top: 120px;
-    margin-right: 50%;
-}
-
-.activity-div {
-    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 /* Map and Book A Table */
@@ -246,6 +231,7 @@ body {
 
     position: relative;
 }
+
 iframe {
     height: 430px;
     width: 400px;
@@ -259,6 +245,7 @@ iframe {
 
 .book-a-table h2 {
     text-align: center;
+    padding-top: 5px;
 }
 
 .form-group {
