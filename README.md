@@ -43,14 +43,16 @@
 
 # Bugs
 
+#### I had a couple of problems with the repsonsive design elements and the positioning of things. Mainly the problems occured in the menu and booking section as a few different elements would come into play.
+
 
 # Technologies Used
-## Languages
+#### Languages
 * HTML
 * CSS
 * Bootstrap
 
-## Frameworks - Libraries - Programs Used
+#### Frameworks - Libraries - Programs Used
 * Am I Responsive - Used to verify responsiveness of website on different devices.
 * Responsinator - Used to verify responsiveness of website on different devices.
 * Balsamiq - Used to generate Wireframe images.
@@ -63,12 +65,12 @@
 
 
 # Credits
-## Below are some of the sites and resources that inspired me to make this project.
+#### Below are some of the sites and resources that inspired me to make this project.
 * https://www.fourpure.com/pages/taproom-se16
 * https://www.vocationbrewery.com/
 * https://www.brewdog.com/uk
 
-## Below are some of the resources that I used to help me and turn into my own.
+#### Below are some of the resources that I used to help me and turn into my own.
 * Coders Coffeehouse Project by CodeInstitute
 * Whiskey Project by CodeInstitute 
 
