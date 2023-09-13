@@ -43,7 +43,9 @@
 
 # Bugs
 
-#### I had a couple of problems with the repsonsive design elements and the positioning of things. Mainly the problems occured in the menu and booking section as a few different elements would come into play.
+#### There was a very specific bug that I couldn't get my head around and that was making the form responsive. I soon learned that the container element I was using also corresponded with more of the wesbite that I had first thought. After some research and trial and error, I then switched the way I implemented the background image into the 'Book A Table' section. 
+
+#### The form itself also wouldn't resize properly when moving into an small/extra small screen size which was because I hadn't targeted each column within the form for it to be responsive.
 
 
 # Technologies Used
@@ -70,9 +72,18 @@
 * https://www.vocationbrewery.com/
 * https://www.brewdog.com/uk
 
-#### Below are some of the resources that I used to help me and turn into my own.
-* Coders Coffeehouse Project by CodeInstitute
-* Whiskey Project by CodeInstitute 
+### Media
+#### Below are the links to each of the images I have in my project.
+* Hero Image 1 - https://www.fourpure.com/cdn/shop/files/Fourpure_Taproom_Events_698x458.jpg?v=1670413433
+* Hero Image 2 - https://www.fourpure.com/cdn/shop/files/40-day-placeholder_1220x512_crop_center.jpg?v=1649169548
+* Beer Cans Image - https://www.baturebrewery.com/media/w12fgcmy/group_shot.jpg
+* Draght Beer Image - https://www.indystar.com/gcdn/-mm-/a5076e7a43a0cec6129489319d0fb728e2cd1814/c=0-264-5184-3193/local/-/media/2015/12/29/Indianapolis/Indianapolis/635870074476103412-042-tap.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp
+* Table Tennis Image - https://www.bostonmagazine.com/wp-content/uploads/sites/2/2021/11/spin-ping-pong-boston-t.jpg
+
+#### Below are some of the code resources that I used to help me and turned into my own.
+* Whiskey Project by CodeInstitute - I used the hero image layout and navbar code from the code stored in GitHub on the Whiskey Project to help me get started with the my project although I have changed many elements in that section to give it my own feel. Some of the CSS styling including the styling to the navbar, hero image and buttons still remain whilst I have tweaked them to fit what I wanted to do.
+
+* Bootstrap4 - I used the form table provided in Bootstrap to help me get started with my form table although I styled the form myself.
 
 
 
