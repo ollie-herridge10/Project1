@@ -61,10 +61,32 @@ Wireframes were produced using Balsamiq.
 * Text introduces the brand.
 ![Who Are We Page](assets/images/WhoAreWe.png)
 
+
+### Menu Page
+* Fully responsive menu and activities page that gives good indication to the drinks and food supplied and the actvities that the bar has such as table tennis and so on.
+* Two images that show the table tennis and the draught pumps to the variety of beers on offer.
+* Draught image disappears on a medium screen, the table tennis image remains and then disappears on a small screen.
+* Activities text centers on a smaller screen once both images has disapearred.
+* The menu is made up of two unordered lists with headers.
+* The background conitinues the bluey/green colour theme that gives the website that playful vibe.
 ![Menu Page](assets/images/MenuPage.png)
 
+
+### Booking Page
+* Fully responsive background image and form for booking a table at the bar.
+* Background image again remains stuck in place for a nice scrolling effect.
+* Form has a white background, curved edges, black border for the input boxes and the same button as in the home page.
+* There are two text boxes, one select box for the number of people, one date and one time input on the form as well as the button.
+* All parts of the form are required to be filled in before submitting.
+* Button takes you through to a new tab which confirms your booking.
 ![Booking Page](assets/images/BookingPage.png)
 
+
+### Finding Us & Footer Page
+* Fully responsive section of the page which when seen on a smaller screen, the google image slides below the Finding Us column which gives that area a nice chronilogical feel.
+* Again, the bloack divider and Righteous text on the white background is very bold and easily tells you info regarding the opening times.
+* Google map implemented which shrinks and expands depending on it's place on the page.
+* Footer has a bold black background and the social media icons are the bluey/green that you see run through the website.
 ![Finding Us & Footer](assets/images/FindingUsFooter.png)
 
 # Testing
