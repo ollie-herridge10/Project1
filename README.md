@@ -45,7 +45,15 @@ Wireframes were produced using Balsamiq.
  </details>
 
 # Features
+![Home Page](assets/images/HomePage.png)
 
+![Who Are We Page](assets/images/WhoAreWe.png)
+
+![Menu Page](assets/images/MenuPage.png)
+
+![Booking Page](assets/images/BookingPage.png)
+
+![Finding Us & Footer](assets/image/FindingUsFooter.png)
 
 # Testing
 ## HTML
