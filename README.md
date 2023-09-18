@@ -29,6 +29,20 @@
 
 
 # Wirefames
+Wireframes were produced using Balsamiq. 
+
+ <details>
+
+ <summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](assets/image/FullScreenWireframe.png)
+ </details>
+
+ <details>
+    <summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](assets/images/PhoneScreenWireframe.png)
+ </details>
 
 # Features
 
@@ -83,12 +97,5 @@
 #### Below are some of the code resources that I used to help me and turned into my own.
 * Whiskey Project by CodeInstitute - I used the hero image layout and navbar code from the code stored in GitHub on the Whiskey Project to help me get started with the my project although I have changed many elements in that section to give it my own feel. Some of the CSS styling including the styling to the navbar, hero image and buttons still remain whilst I have tweaked them to fit what I wanted to do.
 
-* Bootstrap4 - I used the form table provided in Bootstrap to help me get started with my form table although I styled the form myself.
 
-
-
-
-Link for Hero Image - https://images.getbento.com/accounts/c618467979bf3c1197daf5643277f261/media/images/50715Funcks_Leola_January-001.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5
-
-Credit to - https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master
 
