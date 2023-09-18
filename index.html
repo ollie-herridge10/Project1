@@ -9,10 +9,13 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Righteous&display=swap');</style>    
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<!-- Hero -->
+<!-- Hero. In my hero section I have used Bootstraps Navbar code to help with the responsiveness, dropdown and look of the top of the page.
+I have customised the Boostrap code to my liking so that you get the navbar, button, dropdown, hero image and text that you can see on the website.
+The navbar content and button links to other parts of the page. The whole thing is responsive and when moving to a small screen, a burger menu appears.
+I have also used an opaque overlay on the Hero image. --> 
 <body>
     <div class="container-fluid navalert-container">
-        <div class="container-fluid alert-container">
+        <div class="container-fluid">
             <div class="row d-none d-sm-block">
                 <div class="col-12">
                 </div>
@@ -45,14 +48,16 @@
                 </div>
             </div>
         </div>
-    <!-- Hero -->
-    <!-- Who Are We -->
+<!-- Hero -->
+
+<!-- Who Are We. Using contaienr fluid to help with the responsiveness and blocking the image when the screen gets down to small.
+     Had to resize the image as it effected the performance. Used a page header and block divider to give the page a defined heading. -->
     <div class="container-fluid">
         <div class="container content-container">
             <div class="row">
                 <div class="col draught">
                         <div class="d-none d-md-block">
-                            <img src="https://www.baturebrewery.com/media/w12fgcmy/group_shot.jpg" class="rounded center img-fluid" width="100" alt="IPA Image">                            
+                            <img src="assets/images/group_shot.jpg" class="rounded center img-fluid" width="100" alt="IPA Image">                            
                         </div>
                     </div>
                 <div class="col-md-6 page-header who-are-we">
@@ -66,7 +71,11 @@
                 </div>
             </div>
     <!--Who Are We-->
-    <!-- Menu -->
+
+<!-- Menu. I used the container wrapper to create the cyan color background. Again I used pager header and block dividers to creat a heading.
+     The actual menu is split into 2 columns culminating of three unorderd lists that align on the left hand side of the page with strong headings.
+     I have an image on the right that blocks after resizing to medium and the other image disappears at small screen. The text all centres when the 
+     page in on a small screen. The word Menu in the navbar links straight to this page.-->
     <div class="container-wrapper container-wrapper--cyan">
         <div class="container content-container">
             <section class="features">
@@ -121,26 +130,31 @@
         </div>
     </div>
     <!-- Menu -->
-    <!--Book A Table-->
-    <section class="hero-container-two">
+
+<!--Book A Table. I used the same principal as I did for the hero image at the top of the website as I did here for the form background
+    although I changed the image and took away the opaque overlay. The form is completely responsive, the columns auto shrink as the page 
+    gets smaller. I have different inputs of text, select, date and time. All of these have to be filled out for the form to submit.
+    I used the same design as above for the button with help from Bootstrap. Once you submit the form, it opens another tab in which is 
+    confirms your booking on a landing page.-->
+    <section class="hero-container-two" id="booking-nav-link">
     <section class="container1">
         <h2>Book A Table</h2>
-        <form action="#" class="form">
+        <form action="booking.html" method="get" class="form">
             <div class="input-box">
                 <label>Full Name</label>
-                <input type="text" placeholder="Enter full name" required/>
+                <input name="fullname" type="text" placeholder="Enter full name" required/>
             </div>
 
             <div class="input-box">
                 <label>Email Address</label>
-                <input type="text" placeholder="name@example.com" required/>
+                <input name="emailaddress" type="text" placeholder="name@example.com" required/>
             </div>
 
             <div class="column">
                 <div class="input-box">
                 <label>Number of people</label>
-                <select type="select" required>
-                    <option>1</option>
+                <select name="numberofpeople" required>
+                    <option selected="selected" value="">1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
@@ -157,26 +171,26 @@
             <div class="column">
                 <div class="input-box">
                     <label>Date</label>
-                    <input type="date" />
+                    <input name="date" type="date" />
                 </div>
 
                 <div class="input-box">
                     <label>Time</label>
-                    <input type="time" />
+                    <input name="time" type="time" />
                 </div>
             </div>
 
             <div class="form-button">
-                <button href="booking.html" type="submit" target="_blank" class="btn btn-primary">Book A Table</button>
+                <button type="submit"  class="btn btn-primary">Book A Table</button>
             </div>
         </form>
     </section>
     </section>
+<!--Book A Table-->
 
-
-
-    <!--Book A Table-->
-    <!--Opening Times-->
+<!--Opening Times. Two columns implemented to create a opening times and a google map row. Reuse of the block divider and page tite style.
+    When screen size is smaller, google maps slides underneath the Finding Us. The list has a none style type to take any bullet points and other 
+    points away. Google maps has embed response style to resize on different screen sizes.-->
     <section>
         <div class="container-fluid">
             <div class="row align-items-center">
@@ -200,17 +214,19 @@
             </div>
         </div>
     </section>
+<!--Opening Times-->
 
-    <!--Opening Times-->
-    <!--Footer-->
+<!--Footer. Simple elements in this one. Used footer and unordered list. Used font awesome to introduce the social media icons and target blank which
+    opens up the social media sites on a new tab.-->
     <footer>
         <ul class="social-networks">
             <li><a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a></li>
             <li><a href="https://www.twitter.com" target="_blank"> <i class="fa-brands fa-twitter"></i></a></li>
             <li><a href="https://www.youtube.com" target="_blank"> <i class="fa-brands fa-youtube"></i></a></li>
             <li><a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a></li> 
-        </ul>     
+        </ul>
     </footer>
+
 
     <script src="https://kit.fontawesome.com/0d87e99b94.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
