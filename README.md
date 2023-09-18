@@ -53,7 +53,7 @@ Wireframes were produced using Balsamiq.
 
 ![Booking Page](assets/images/BookingPage.png)
 
-![Finding Us & Footer](assets/image/FindingUsFooter.png)
+![Finding Us & Footer](assets/images/FindingUsFooter.png)
 
 # Testing
 ## HTML
