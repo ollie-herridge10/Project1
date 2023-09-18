@@ -45,8 +45,20 @@ Wireframes were produced using Balsamiq.
  </details>
 
 # Features
+### Home Page
+* Fully responsive navigation bar, buttons, hero image and text.
+* Nav icons collapse to a burger menu on the right hand side.
+* Hero image is stuck which gives the nice scroll effect and also has a black opaque background cover which dims the hero image to make sure the title text pops with it's text shadow.
+* Hero image itself gives off the full effect of what to expect from the bar.
+* Book a table button connects to the booking section of the page.
 ![Home Page](assets/images/HomePage.png)
 
+
+### Who Are We Page
+* Fully responsive short section of the website that pops with good colour and meaningful text.
+* Image disappears when the screen goes to small.
+* Header is underlines with a block divider.
+* Text introduces the brand.
 ![Who Are We Page](assets/images/WhoAreWe.png)
 
 ![Menu Page](assets/images/MenuPage.png)
