@@ -18,14 +18,14 @@
 
 # Design
 
-## Images
-#### The images I have incorporated into my website give a real feel of what to expect when you arrive at the bar. The two big hero images show real detail into what the bar looks like and gives off the vibe of the place as well. The smaller images I have portray the finer details about my bar including the fun and games you can have there.
+### Images
+* The images I have incorporated into my website give a real feel of what to expect when you arrive at the bar. The two big hero images show real detail into what the bar looks like and gives off the vibe of the place as well. The smaller images I have portray the finer details about my bar including the fun and games you can have there.
 
-## Fonts
-#### I chose the Righteous font for my website as I believe it carries the weight of the IPA industry with it. The indsutry is fun and playful so I thought Righteous had the right tone.
+### Fonts
+* I chose the Righteous font for my website as I believe it carries the weight of the IPA industry with it. The indsutry is fun and playful so I thought Righteous had the right tone.
 
-## Colours
-#### A light greeny/blue, white and black were chosen for my website. The colour rgb(28, 236, 170) popped right off the page and gave my website a theme that I could continue with to carry on that playful sense that my website offers.
+### Colours
+* Cyan, black and white were the chosen colours for my website. The colour rgb(28, 236, 170) popped right off the page and gave my website a theme that I could continue with to carry on that playful sense that my website offers.
 
 
 # Wirefames
@@ -97,7 +97,7 @@ Wireframes were produced using Balsamiq.
 
 # Testing
 ### Lighthouse
-* Happy with this score, although the accessability could have been a little better but it was to be expected with large and busy hero images and a bright bluey/green colour that I used.
+* Happy with this score, although the accessibility could have been a little better but it was to be expected with large and busy hero images and a bright bluey/green colour that I used.
 ![Lighthouse](assets/images/Lighthouse.png)
 
 ### HTML
@@ -115,9 +115,9 @@ Wireframes were produced using Balsamiq.
 
 
 # Bugs
-#### There was a very specific bug that I couldn't get my head around that was keeping me from making the form responsive. I soon learned that the container element I was using also corresponded with the above parts of the website in my styling. After some research and trial & error, I then switched the way I implemented the background image into the 'Book A Table' section. Following that I also scrapped my first form and implemented it again so that it was responsive on all screen sizes.
+* There was a very specific bug that I couldn't get my head around that was keeping me from making the form responsive. I soon learned that the container element I was using also corresponded with the above parts of the website in my styling. After some research and trial & error, I then switched the way I implemented the background image into the 'Book A Table' section. Following that I also scrapped my first form and implemented it again so that it was responsive on all screen sizes.
 
-#### My footer had a small white gap below it, I soon realised that I had styled the footer as a class and not just a normal element.
+* My footer had a small white gap below it, I soon realised that I had styled the footer as a class and not just a normal element.
 
 
 # Technologies Used
